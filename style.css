@@ -1,0 +1,53 @@
+body{
+	font-family: monospace, monospace;
+        padding: 0 25%;
+        background:#1c1c1c;
+        color:#cecece;
+
+}
+
+div pre{
+	white-space:pre;
+	margin:0;
+	text-align:center;
+	font-size:1rem;
+}
+
+div{
+	padding: 25px;
+	border:1px green solid;
+}
+
+.centercontainer{
+	padding:initial;
+	border:initial;
+	margin:auto;
+}
+
+@media (max-width: 1400px){
+	body{
+		padding:0 20%;
+	}
+}
+
+
+@media (max-width: 1000px){
+	body{
+		padding:0 16%;
+	}
+}
+
+
+@media (max-width: 800px){
+	body{
+		padding:0 12%;
+	}
+}
+
+
+@media (max-width: 600px){
+	body{
+		padding:0 6%;
+	}
+}
+
