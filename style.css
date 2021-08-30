@@ -1,3 +1,8 @@
+@font-face{
+	font-family: 'CodeNewRoman';
+	src: url('CodeNewRoman.woff');
+}
+
 body{
 	font-family: Courier;
 	padding: 0 25%;
@@ -6,11 +11,16 @@ body{
 
 }
 
-pre{
+div pre{
 	white-space:pre;
 	margin:0;
 	text-align:center;
 	font-size:1rem;
+}
+
+pre {
+	font-family: 'CodeNewRoman';
+	font-size: 0.75rem;
 }
 
 div{
