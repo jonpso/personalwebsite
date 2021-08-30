@@ -34,6 +34,10 @@ div{
 	margin:auto;
 }
 
+.sessionid {
+	word-break: break-all;
+}
+
 @media (max-width: 1400px){
 	body{
 		padding:0 20%;
